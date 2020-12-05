@@ -1,0 +1,23 @@
+public class Store {
+  // instance fields
+  String productType;
+  int inventoryCount;
+  double inventoryPrice;
+  
+  // constructor method
+  //For example, product is of type String because that value is assigned to the instance field String productType.
+  public Store(String product, int count, double price) {
+    productType = product;
+    inventoryCount = count;
+    inventoryPrice = price;
+  }
+  
+  // main method
+  public static void main(String[] args) {
+    /*
+    Creation d'une nouvelle instance de Store called cookieShop
+    Ici on determine : Store cookieShop est un nouveau Store contenant (des cookies aux nombre de 12 et au prix de 3.75)
+    */
+    Store cookieShop = new Store("cookies", 12, 3.75); 
+  }
+}
